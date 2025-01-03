@@ -1,8 +1,8 @@
 # PoE2 EA filter Edit by LEXerFuu
-
-cdr's PoE2 endgame loot filter
+-
+Original cdr's PoE2 endgame loot filter
 https://github.com/cdrg/cdr-poe2filter
-
+-
 >**rLEX_PoE2.filter** for all late game content, e.g. waystone level 1 - level 15+
 
 ~80% of features are equivalent to NeverSink Path of Exile filter 1
