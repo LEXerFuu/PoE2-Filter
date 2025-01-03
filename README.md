@@ -1,4 +1,7 @@
-# PoE2 EA filter by LEXerFuu
+# PoE2 EA filter Edit by LEXerFuu
+
+cdr's PoE2 endgame loot filter
+https://github.com/cdrg/cdr-poe2filter
 
 >**rLEX_PoE2.filter** for all late game content, e.g. waystone level 1 - level 15+
 
@@ -14,6 +17,7 @@ Currently, there is hardly anything hidden except for the worst normal/magical b
 We recommend you to adjust to your own preferences
 
 Hide items at your own risk, tiering is not perfect and values ​​can change quickly
+
 
 Built on NeverSink's PoE1 filter architecture https://www.filterblade.xyz/
 Path of Exile 2 support coming in a few weeks
