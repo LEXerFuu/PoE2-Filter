@@ -31,5 +31,16 @@ NeverSink github: @NeverSinkDev
 NeverSink Patreon: www.patreon.com/Neversink
 
 ----
-# How to download and use
+# How to download and use:
 
+Go to Releases  
+![image](https://github.com/user-attachments/assets/2fc2cba9-ad0a-455c-a690-7a778ec44f32)
+
+Download the latest .filter file  
+![image](https://github.com/user-attachments/assets/9e0b4a97-9f70-4228-9b62-bb8a6473be1b)
+
+Move the .filter file to \Documents\My Games\Path of Exile 2  
+![image](https://github.com/user-attachments/assets/0fed0bbb-87cd-4bec-b802-7a32a7453ba4)
+
+Select the filter in the game options drop-down, or press reload 🔃 if it was already selected  
+![image](https://github.com/user-attachments/assets/2a2c8ce9-d4e6-4d52-90ff-be0fad4af50e)
