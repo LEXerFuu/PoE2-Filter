@@ -36,6 +36,8 @@ NeverSink Patreon: www.patreon.com/Neversink
 Download the latest .filter file  
 ![Screenshot 2025-01-04 063458](https://github.com/user-attachments/assets/c2d5b8e9-8623-4b0d-ad98-f012cccc4749)
 
+![Screenshot 2025-01-04 064705](https://github.com/user-attachments/assets/4ea43a6d-d1e3-4eae-a7d3-d112e446b8eb)
+
 Move the .filter file to \Documents\My Games\Path of Exile 2  
 ![Screenshot 2025-01-04 063855](https://github.com/user-attachments/assets/ae9c1a09-ee9d-41e4-926c-eb836cc2ad53)
 
