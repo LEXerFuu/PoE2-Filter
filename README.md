@@ -27,5 +27,5 @@ NeverSink github: @NeverSinkDev
 NeverSink Patreon: www.patreon.com/Neversink
 
 ----
-# How to download and use:
+# How to download and use
 
