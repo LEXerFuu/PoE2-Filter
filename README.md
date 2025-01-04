@@ -1,6 +1,6 @@
 # PoE2 EA filter Edit by LEXerFuu
 
-blob:https://github.com/a45970cd-973b-4f6a-b15a-8cd0af1a9f15
+download:https://github.com/a45970cd-973b-4f6a-b15a-8cd0af1a9f15
  
 Original cdr's PoE2 endgame loot filter
 https://github.com/cdrg/cdr-poe2filter
@@ -34,6 +34,8 @@ NeverSink Patreon: www.patreon.com/Neversink
 
 ----
 # How to download and use:
+
+download:https://github.com/a45970cd-973b-4f6a-b15a-8cd0af1a9f15
 
 Download the latest .filter file  
 ![Screenshot 2025-01-04 063458](https://github.com/user-attachments/assets/c2d5b8e9-8623-4b0d-ad98-f012cccc4749)
