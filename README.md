@@ -1,6 +1,6 @@
 # PoE2 EA filter Edit by LEXerFuu
 
-download:https://github.com/a45970cd-973b-4f6a-b15a-8cd0af1a9f15
+Download:[https://github.com/a45970cd-973b-4f6a-b15a-8cd0af1a9f15](https://github.com/LEXerFuu/PoE2-Filter/archive/refs/heads/main.zip)
  
 Original cdr's PoE2 endgame loot filter
 https://github.com/cdrg/cdr-poe2filter
