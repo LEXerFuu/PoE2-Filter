@@ -54,52 +54,30 @@
 
 Show
 	BaseType == "Gold"
-	StackSize >= 3000
+	StackSize >= 5000
 	SetFontSize 20
-	SetTextColor 235 200 110
-	SetBorderColor 255 255 255
-	PlayEffect Orange
-	MinimapIcon 2 Orange Cross
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+#	PlayEffect Orange Temp
+#	MinimapIcon 1 White Cross
 
 Show
 	BaseType == "Gold"
 	StackSize >= 1000
 	SetFontSize 20
-	SetTextColor 235 200 110
-	SetBorderColor 255 255 200
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+#	MinimapIcon 2 Grey Cross
 
 Show
 	BaseType == "Gold"
-	StackSize >= 500
 	SetFontSize 20
-	SetTextColor 235 200 110
-
-Show
-	AreaLevel >= 72
-	AreaLevel <= 78
-	BaseType == "Gold"
-	StackSize >= 150
-	SetFontSize 20
-	SetTextColor 190 170 115
-
-Show
-	AreaLevel >= 65
-	AreaLevel <= 71
-	BaseType == "Gold"
-	StackSize >= 120
-	SetFontSize 20
-	SetTextColor 190 170 115
-
-Show
-	AreaLevel <= 64
-	BaseType == "Gold"
-	StackSize >= 100
-	SetFontSize 20
-
-Hide # hide small piles
-	BaseType == "Gold"
-	StackSize <= 499
-	SetFontSize 20
+	SetTextColor 180 180 180 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 20 20 0 180
+#	MinimapIcon 2 Grey Cross
 
 #===============================================================================================================
 # [[0500]] Exotic Bases
@@ -1023,13 +1001,28 @@ Show # anymagic
 #------------------------------------
 
 Show # $type->uncutgem $level->20
-	BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
+	BaseType == "Uncut Skill Gem"
 	ItemLevel >= 20
 	SetFontSize 30
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
 	SetBackgroundColor 255 255 255 255
-	PlayAlertSound 6 300
+#	PlayAlertSound 6 300
+	CustomAlertSound "rLEXsounds\Uncut Skill Gem.mp3" 300
+	DisableDropSound True
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	
+Show # $type->uncutgem $level->20
+	BaseType == "Uncut Spirit Gem"
+	ItemLevel >= 20
+	SetFontSize 30
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+#	PlayAlertSound 6 300
+	CustomAlertSound "rLEXsounds\Uncut Spirit Gem.mp3" 300
+	DisableDropSound True
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 	
@@ -1489,7 +1482,9 @@ Show # $type->waystones $tier->waystones_a_t15
 	SetFontSize 30
 	SetTextColor 0 0 0 255
 	SetBackgroundColor 235 235 235 255
-	PlayAlertSound 5 300
+#	PlayAlertSound 5 300
+	CustomAlertSound "rLEXsounds\WaystoneTier 15.mp3" 300
+	DisableDropSound True
 	PlayEffect Yellow
 	MinimapIcon 1 Red Square
 
@@ -1966,12 +1961,53 @@ Show #  $type->currency->stacked $tier->t5
 
 Show # $type->currency $tier->t1perfectjeweller
 	Class == "Stackable Currency"
-	BaseType == "Mirror of Kalandra" "Albino Rhoa Feather" "Perfect Jeweller's Orb" "Divine Orb"
+	BaseType == "Mirror of Kalandra"
 	SetFontSize 30
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
 	SetBackgroundColor 255 255 255 255
-	PlayAlertSound 6 300
+#	PlayAlertSound 1 300
+	CustomAlertSound "rLEXsounds\Mirror of Kalandra.mp3" 300
+	DisableDropSound True
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	
+Show # $type->currency $tier->
+	Class == "Stackable Currency"
+	BaseType == "Albino Rhoa Feather"
+	SetFontSize 30
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+#	PlayAlertSound 1 300
+	CustomAlertSound "rLEXsounds\Albino Rhoa Feather.mp3" 300
+	DisableDropSound True
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	
+Show # $type->currency $tier->
+	Class == "Stackable Currency"
+	BaseType == "Divine Orb"
+	SetFontSize 30
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+#	PlayAlertSound 1 300
+	CustomAlertSound "rLEXsounds\Divine Orb.mp3" 300
+	DisableDropSound True
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	
+Show # $type->currency $tier->
+	Class == "Stackable Currency"
+	BaseType == "Perfect Jeweller's Orb"
+	SetFontSize 30
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+#	PlayAlertSound 1 300
+	CustomAlertSound "rLEXsounds\Perfect Jeweller's Orb.mp3" 300
+	DisableDropSound True
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 
@@ -1982,7 +2018,9 @@ Show # $type->currency $tier->t2divine
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 1 300
+#	PlayAlertSound 1 300
+	CustomAlertSound "rLEXsounds\Greater Jeweller's Orb.mp3" 300
+	DisableDropSound True
 	PlayEffect Red
 	MinimapIcon 0 Red Circle
 
@@ -1999,12 +2037,25 @@ Show # $type->currency $tier->t3annul
 
 Show # $type->currency $tier->t4exalt
 	Class == "Stackable Currency"
-	BaseType == "Exalted Orb" "Gemcutter's Prism" "Chaos Orb" "Exotic Coinage" 
+	BaseType == "Gemcutter's Prism" "Chaos Orb" "Exotic Coinage" 
 	SetFontSize 30
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
 	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow Circle
+	
+Show # $type->currency $tier->
+	Class == "Stackable Currency"
+	BaseType == "Exalted Orb"
+	SetFontSize 30
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 249 150 25 255
+#	PlayAlertSound 2 300
+	CustomAlertSound "rLEXsounds\Exalted Orb.mp3" 300
+	DisableDropSound True
 	PlayEffect Yellow
 	MinimapIcon 2 Yellow Circle
 
@@ -2851,3 +2902,8 @@ Hide # $type->hidelayer $tier->final
 
 Show # Show All unknown Section
 	SetFontSize 30
+	SetTextColor 255 0 255 255
+	SetBorderColor 255 0 255 255
+	SetBackgroundColor 100 0 100 255
+	PlayEffect Pink
+	MinimapIcon 0 Pink Circle
