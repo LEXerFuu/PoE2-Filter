@@ -4,7 +4,7 @@ Download:[https://github.com/a45970cd-973b-4f6a-b15a-8cd0af1a9f15](https://githu
 
 
 ----
-# How to download and use:
+# How to download and use
 
 Download:[https://github.com/a45970cd-973b-4f6a-b15a-8cd0af1a9f15](https://github.com/LEXerFuu/PoE2-Filter/archive/refs/heads/main.zip)
 
